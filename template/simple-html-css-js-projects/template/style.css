@@ -292,7 +292,7 @@ header .layer {
 .img-class {
   position: relative;
 }
-.layer {
+.img-layer {
   position: absolute;
   display: flex;
   top: 0;
@@ -306,10 +306,10 @@ header .layer {
   gap: 5px;
   transition: 0.3s;
 }
-.layer i {
+.img-layer i {
   color: #dd9f0f;
 }
-.img-class:hover .layer {
+.img-class:hover .img-layer {
   visibility: visible;
   height: 100%;
 }
